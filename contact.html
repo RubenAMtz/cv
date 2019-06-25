@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Information</title>
+</head>
+<body>
+    <h1>Contact information</h1>
+    <hr size="3" noshade>
+    <p><strong>Email:</strong> rubenalvarez@pixail.ai</p>
+    <p><strong>Skype:</strong> rbbnalvarez</p>
+    <p><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/alvarezruben">alvarezruben</a></p>
+
+    <form action="mailto:rubenalvarez@pixail.ai" method="POST" enctype="text/plain">
+        <label for="yourname">Your name:</label>  
+        <input type="text" name="name" placeholder="Type in your name" id="yourname"><br>
+        <label for="youremail">Your email:</label>
+        <input type="email" name="email" placeholder="Type in your email" id="youremail"><br>
+        <label for="industry">Select your industry:</label>
+        <select name="industry" id="industry">
+            <option value="mining">Mining</option>
+            <option value="automotive">Automotive</option>
+            <option value="space">Space</option>
+            <option value="manufacturing">Manufacturing</option>
+        </select><br>
+        <label for="message">Your message:</label><br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Submit"><br>
+        <!-- <label for="password"></label>
+         <input type="password" name="password" id="password">
+        <label for="terms">I accept the terms and conditions?</label>
+        <input type="checkbox" required name="terms" id="terms"><br>
+         -->
+        
+    </form>
+    
+</body>
+</html>
